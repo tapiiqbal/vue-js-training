@@ -1,15 +1,15 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <p @click="test">Home</p>
     <input v-model="message" />
-    <p @click="test">Test</p>
-    <app-hello-world :msg="msg"/>
+    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
+    <!-- <app-hello-world :msg="msg"/> -->
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+// import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'home',
@@ -22,7 +22,7 @@ export default {
   },
 
   components: {
-    appHelloWorld: HelloWorld
+    // appHelloWorld: HelloWorld
   },
 
   watch: {

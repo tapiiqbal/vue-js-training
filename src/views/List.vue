@@ -1,5 +1,6 @@
 <template>
   <div class="list">
+    <h1>List</h1>
     <p class="text-bold">Mapping an Array to Elements with v-for</p>
     <div class="flex-container">
       <ul id="example-1">

@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about directive</h1>
+    <h1>Directive</h1>
     <p v-html="message + ' | v-html'"> </p>
     <p v-once>{{ message }} | v-once</p>
     <p v-text="message"> | v-text</p>

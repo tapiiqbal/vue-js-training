@@ -5,6 +5,7 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/directive">Directive</router-link> |
       <router-link to="/list">List</router-link> |
+      <router-link to="/form">Form</router-link> |
       <router-link to="/components">Components</router-link> |
     </div>
     <router-view/>
